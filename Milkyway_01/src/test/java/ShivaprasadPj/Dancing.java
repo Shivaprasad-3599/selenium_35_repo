@@ -8,6 +8,7 @@ public class Dancing {
 	@Test
 	public void dance() {
 		WebDriver driver=new ChromeDriver();
+		driver.close();
 	}
 
 }
